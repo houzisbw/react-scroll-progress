@@ -22,3 +22,11 @@ yarn add react-scroll-progress-with-bookmark
 import ProgressBar from 'react-scroll-progress-with-bookmark'
 <ProgressBar position="top" barColor="#df2233"/>
 ```
+## Props
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| position | string | 'top' | ProgressBar position on window('top','bottom') |
+| barColor | string | '#337fff' | Progress bar color |
+| hideAfterScroll | bool | false | if `true` the progress bar will hide after scroll |
+| timeAfterScrollToHide | number | 1000 | Interval time(ms) for hideAfterScroll |
+
