@@ -1,0 +1,75 @@
+.react-bottom-progress-bar-wrapper{
+    position: fixed;
+    left:0;
+    height:5px;
+    width:100%;
+    z-index:99999;
+    cursor: pointer;
+}
+
+.react-bottom-progress-bar{
+    width:0;
+    height:100%;
+    background-color: dodgerblue;
+    transition: width .5s ease;
+}
+
+.react-bottom-progress-bar-remove-bookmarks{
+    position: absolute;
+    cursor: pointer;
+    right:0;
+    width:24px;
+    height:24px;
+    background: url('./img/delete.png') center center no-repeat;
+}
+.remove-bookmarks-top{
+    top:5px;
+}
+.remove-bookmarks-bottom{
+    top:-23px;
+}
+.react-bottom-progress-bar-bookmark-sign-description{
+    position: absolute;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius:4px;
+    max-width: 100px;
+    height:20px;
+    background-color: rgba(0,0,0,0.5);
+    line-height: 20px;
+    text-align: center;
+    padding: 3px;
+    color:#fff;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: default;
+    left:50%;
+    -ms-transform:translateX(-50%); 	/* IE 9 */
+    -moz-transform:translateX(-50%);	/* Firefox */
+    -webkit-transform:translateX(-50%); /* Safari 和 Chrome */
+    -o-transform:translateX(-50%); 	    /* Opera */
+    transform: translateX(-50%);
+}
+.description-top{
+    top:17px;
+}
+.description-bottom{
+    top:-27px;
+}
+
+.react-bottom-progress-bar-bookmark-sign-top{
+    position: absolute;
+    top:-2px;
+    width:16px;
+    height:16px;
+    background: url('./img/bookmark.png') center center no-repeat;
+}
+.react-bottom-progress-bar-bookmark-sign-bottom{
+    position: absolute;
+    top:-10px;
+    width:16px;
+    height:16px;
+    background: url('./img/bookmark.png') center center no-repeat;
+}
